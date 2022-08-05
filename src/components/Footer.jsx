@@ -1,9 +1,9 @@
 import React from 'react';
-import logo from '../Assets/logoResize.png';
+import logo from '../Assets/LOGO.png';
 
 const Footer = () => {
   return (
-    <footer class="bg-background svg-bg">
+    <footer class="bg-background svg-bg " id="footer">
       <div class="max-w-5xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
         <div class="flex justify-center text-teal-300">
           <img src={logo} alt="" class="w-16 h-16 rounded-full" />

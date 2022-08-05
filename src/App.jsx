@@ -3,7 +3,7 @@ import Home from './pages/Home';
 
 function App() {
   return (
-    <div className="svg-bg bg-background text-white min-h-screen py-10">
+    <div className="svg-bg bg-background text-white min-h-screen py-10 scroll-smooth">
       <Navbar />
       <Home />
     </div>

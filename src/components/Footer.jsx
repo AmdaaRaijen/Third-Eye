@@ -9,7 +9,7 @@ const Footer = () => {
           <img src={logo} alt="" class="w-16 h-16 rounded-full" />
         </div>
 
-        <p class="max-w-md mx-auto mt-6 leading-relaxed text-center text-gray-400">TUGAS NGAP WAFA COYY</p>
+        <p class="max-w-md mx-auto mt-6 leading-relaxed text-center text-gray-400">TUGAS SIR WAFA COYY</p>
 
         <nav class="mt-12" aria-labelledby="footer-navigation">
           <h2 class="sr-only" id="footer-navigation">
@@ -25,31 +25,19 @@ const Footer = () => {
 
             <li>
               <a class="text-white transition hover:text-primary" href="/">
-                Careers
+                Team
               </a>
             </li>
 
             <li>
               <a class="text-white transition hover:text-primary" href="/">
-                History
+                Filosofi
               </a>
             </li>
 
             <li>
               <a class="text-white transition hover:text-primary" href="/">
-                Services
-              </a>
-            </li>
-
-            <li>
-              <a class="text-white transition hover:text-primary" href="/">
-                Projects
-              </a>
-            </li>
-
-            <li>
-              <a class="text-white transition hover:text-primary" href="/">
-                Blog
+                Contact
               </a>
             </li>
           </ul>

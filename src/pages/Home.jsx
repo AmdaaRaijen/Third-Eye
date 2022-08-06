@@ -24,36 +24,43 @@ const Home = () => {
       <section className="mx-auto max-w-6xl container mt-9 space-y-5 font-roboto " id="about">
         <div className="bg-highlight p-8 px-16 py-24 rounded-md grid grid-cols-1 gap-5 items-center lg:grid-cols-2">
           <div className="max-w-xl mx-auto text-left">
-            <h2 className="font-bold text-center text-3xl text-primary md:text-left">Perusahaan Khayal, Semoga Nyata Amin</h2>
+            <h2 className="font-bold text-center text-2xl text-primary md:text-left md:text-3xl">Perusahaan Khayal, Semoga Nyata Amin</h2>
 
-            <p className="mt-4 block text-center opacity-70 md:text-left">Perusahaan yang dibuat karena tuntutan tugas NGAP WAFA COYYY yang kemudian enjoy menjalaninya. SIJA 1 yu bisa yuuuu. Semangatttt!!! Rodok nyleneh tapi rapopo 👌🏻🔥</p>
+            <p className="mt-4 block text-center opacity-70 md:text-left">
+              Perusahaan yang dibuat karena tuntutan tugas SIR WAFA COYYY. Awalnya sih coba-coba tapi malah keterusan. <span className="font-bold ">THIRD EYE NIH BOSS SENGGOL DONG.</span> Rodok nyleneh tapi rapopo 👌🏻🔥
+            </p>
           </div>
 
           <img alt="Fotbar" src={Fotbar} className="rounded-md max-w" />
         </div>
       </section>
-      <section id="team" className="mx-auto grid grid-cols-1 gap-10 p-10 max-w-6xl container mt-9 font-roboto lg:grid-cols-4 md:p-0 md:gap-6">
-        <MemberCard name="Valencia Amadhea" jobs="CEO" description="Tadinya tidak berniat jadi CEO, namun tetap terpilih 😐" image={FotoValen} />
-        <MemberCard name="Najwa Yogi" jobs="Researcher" description="Saya dimana ini? INFOO INFOO 🤓" image={Najwa} />
-        <MemberCard name="Inayah Cikal" jobs="Designer" description="Pusyingg guys, revisi terus nih. 🤕" image={Naya} />
-        <MemberCard name="Bintang Triadmaja" jobs="Programmer" description="Dear Ananda, Semoga Sehat Selalu 🙏" image={Bintang} />
+      <section id="team" className="p-10 mx-auto max-w-6xl container mt-9 font-roboto">
+        <h2 className="font-bold text-center text-2xl text-primary mb-9 md:text-3xl">Our Team</h2>
+        <div className="grid grid-cols-1 gap-10 lg:grid-cols-4 md:p-0 md:gap-6">
+          <MemberCard name="Valencia Amadhea" jobs="CEO" description="Tadinya ndak berniat jadi CEO, namun tetep kepilih 😐" image={FotoValen} />
+          <MemberCard name="Najwa Yogi" jobs="Researcher" description="Saya dimana ini? INFOO INFOO 🤓" image={Najwa} />
+          <MemberCard name="Inayah Cikal" jobs="Designer" description="Pusyingg guys, revisi terus nih. 🤕" image={Naya} />
+          <MemberCard name="Bintang Triadmaja" jobs="Programmer" description="Dear Ananda, Semoga Sehat Selalu 🙏" image={Bintang} />
+        </div>
       </section>
-      <section id="filosofi" className="bg-highlight mt-9 text-center min-h-full p-5 flex justify-center items-center flex-col mx-auto max-w-4xl container gap-5 font-roboto md:text-left">
+      <section id="filosofi" className="bg-highlight rounded-md container mt-9 min-h-full p-5 flex justify-center items-center flex-col mx-auto max-w-6xl gap-5 font-roboto">
         <h2 className="font-bold text-center text-3xl text-primary font-roboto first-letter:md:text-left">FILOSOFI LOGO</h2>
         <img src={logo} alt="" className=" w-36 h-38" />
-        <ul className="mt-4 block text-center md:text-left font-roboto">
-          <p className="mt-4 block text-center  md:text-left">
-            1. <span> Dilihat dari segi bentuk </span>melambangkan arti dari nama third eye ({' bentuk mata + angka 3 )'}. Yang dimana bentuk tersebut melambangkan nama dan visi perusahaan.
-          </p>
-          <p className="mt-4 block text-center  md:text-left">2. Dilihat dari segi warna</p>
-          <br />
-          <li>
-            <span className="text-secondary font-bold"> Kuning</span> {'--->'} merupakan warna yang membawa kesan bahagia dan optimis. Pengunaan warna kuning mudah menarik perhatian karena menyolok jika dibandingkan dengan warna primer
-            lainnya. Warna kuning sering dipergunakan oleh perusahaan perusahaan yang berjiwa muda, kreativitas.
+        <ul className="mt-4 list-inside space-y-5 list-decimal block md:text-left font-roboto">
+          <li className="list-item">
+            <span> Dilihat dari segi bentuk </span>melambangkan arti dari nama third eye ({' bentuk mata + angka 3 )'}. Yang dimana bentuk tersebut melambangkan nama dan visi perusahaan.
           </li>
-          <br />
-          <li>
-            <span className="text-secondary font-bold"> Biru</span> {'--->'} merupakan warna yang membawa kepercayaan dan profesionalisme. Warna ini sangat populer digunakan pada perusahaan keamanan dan teknologi.
+          <li className="list-item">
+            <span className="mb-5 inline-block">Dilihat dari segi warna</span>
+            <ul className="list-disc list-inside ml-10 space-y-5">
+              <li>
+                <span className=" font-bold"> Kuning</span> {'--->'} merupakan warna yang membawa kesan bahagia dan optimis. Pengunaan warna kuning mudah menarik perhatian karena menyolok jika dibandingkan dengan warna primer lainnya. Warna
+                kuning sering dipergunakan oleh perusahaan perusahaan yang berjiwa muda, kreativitas.
+              </li>
+              <li>
+                <span className=" font-bold"> Biru</span> {'--->'} merupakan warna yang membawa kepercayaan dan profesionalisme. Warna ini sangat populer digunakan pada perusahaan keamanan dan teknologi.
+              </li>
+            </ul>
           </li>
         </ul>
       </section>

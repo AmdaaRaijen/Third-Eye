@@ -14,7 +14,7 @@ const Home = () => {
       <section className="text-center min-h-screen p-5 flex justify-center items-center flex-col mx-auto max-w-4xl container gap-5 font-roboto">
         <h1 className="text-3xl leading-snug font-bold text-primary md:text-5xl">Building Artificial Intelegent Products, Implementation of Computer Vision</h1>
         <p className="text-md mx-auto max-w-3xl">
-          Menjadikan kompter sebagai mata ke tiga yang membantu manusia untuk melihat hal-hal yang tidak bisa dilihat manusia secara umum. Seperti bisa mendeteksi kerusakan pada suatu benda, mendeteksi penyakit dari gejala yang timbul atau
+          Menjadikan komputer sebagai mata ke tiga yang membantu manusia untuk melihat hal-hal yang tidak bisa dilihat manusia secara umum. Seperti bisa mendeteksi kerusakan pada suatu benda, mendeteksi penyakit dari gejala yang timbul atau
           bisa dilihat oleh mata.
         </p>
         <a href="#team">

@@ -9,7 +9,7 @@ const Footer = () => {
           <img src={logo} alt="" class="w-16 h-16 rounded-full" />
         </div>
 
-        <p class="max-w-md mx-auto mt-6 leading-relaxed text-center text-gray-400">TUGAS SIR WAFA COYY</p>
+        <p class="max-w-md mx-auto mt-6 leading-relaxed text-center text-primary">Third Eye 2022</p>
 
         <nav class="mt-12" aria-labelledby="footer-navigation">
           <h2 class="sr-only" id="footer-navigation">

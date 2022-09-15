@@ -23,11 +23,12 @@ const Home = () => {
       </section>
       <section className="mx-auto max-w-6xl container mt-9 space-y-5 font-roboto " id="about">
         <div className="bg-highlight p-8 px-16 py-24 rounded-md grid grid-cols-1 gap-5 items-center lg:grid-cols-2">
-          <div className="max-w-xl mx-auto text-left">
-            <h2 className="font-bold text-center text-2xl text-primary md:text-left md:text-3xl">Perusahaan Khayal, Semoga Nyata Amin</h2>
+          <div className="max-w-xl mx-auto ">
+            <h2 className="font-bold text-justify text-2xl text-primary md:text-left md:text-3xl">This Is Where We Start</h2>
 
-            <p className="mt-4 block text-center opacity-70 md:text-left">
-              Perusahaan yang dibuat karena tuntutan tugas SIR WAFA COYYY. Awalnya sih coba-coba tapi malah keterusan. <span className="font-bold ">THIRD EYE NIH BOSS SENGGOL DONG.</span> Rodok nyleneh tapi rapopo 👌🏻🔥
+            <p className="mt-4 block text-justify opacity-70 md:text-left">
+              Kemajuan teknologi mendorong terciptanya berbagai macam produk yang memanfaatkan teknologi tersebut. Salah satunya adalah produk yang menggunakan teknologi Computer Vision. Computer Vision adalah cabang dari Artificial
+              Intelegent yang memanfaatkan teknologi untuk mendeteksi dan mengenali objek yang ada di sekitar kita.
             </p>
           </div>
 
@@ -44,11 +45,11 @@ const Home = () => {
         </div>
       </section>
       <section id="filosofi" className="bg-highlight rounded-md container mt-9 min-h-full p-5 flex justify-center items-center flex-col mx-auto max-w-6xl gap-5 font-roboto">
-        <h2 className="font-bold text-center text-3xl text-primary font-roboto first-letter:md:text-left">FILOSOFI LOGO</h2>
+        <h2 className="font-bold text-center text-3xl text-primary font-roboto first-letter:md:text-left">Filosofi Logo</h2>
         <img src={logo} alt="" className=" w-36 h-38" />
         <ul className="mt-4 list-inside space-y-5 list-decimal block md:text-left font-roboto">
           <li className="list-item">
-            <span> Dilihat dari segi bentuk </span>melambangkan arti dari nama third eye ({' bentuk mata + angka 3 )'}. Yang dimana bentuk tersebut melambangkan nama dan visi perusahaan.
+            <span> Dilihat dari segi bentuk </span>melambangkan arti dari nama third eye {' bentuk mata + angka 3 )'}. Yang dimana bentuk tersebut melambangkan nama dan visi perusahaan.
           </li>
           <li className="list-item">
             <span className="mb-5 inline-block">Dilihat dari segi warna</span>
